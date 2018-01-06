@@ -1,0 +1,44 @@
+body {
+	background-color: azure;
+	margin-left: 20px;
+}
+
+.header {
+	margin-bottom: 30px;
+}
+
+#info {
+	text-orientation: center;
+	text-height: 30px;
+	text-decoration: blink;
+	margin: 20px;
+}
+
+#movieButtons {
+	float: left;
+}
+
+button {
+	height: 20px;
+	margin: 10px;
+	padding: 20px;
+	background-color: skyblue;
+	float: left;
+	border: solid;
+}
+
+#run-search {
+	height: 20px;
+	width: 80px;
+	padding: 20px;
+}
+
+.item {
+	float: left;
+	margin-left: 20px;
+}
+
+.col-md-3 {
+	float: right;
+	margin-right: 20px;
+}

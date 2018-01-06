@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MOVIE GIPHs!</title>
+	<!-- reset link -->
+	<link rel="stylesheet" type="text/css" href="assets/reset.css">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<!-- Added link to the jQuery Library -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="row">
+			<div class="col-md-12">
+				<p id="info">
+					Click on any button for GIPHS to pop up! Once they do, just click to start the giph of your choice
+					and click it again to stop it.
+				</p>
+			</div>
+			<div class="col-md- 12">
+				<div id="movieButtons"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-3">
+			
+			<p id='search-info'>
+				Add your favorite movie or tv show to see what GIPH pops up for it! 
+			</p>
+
+			<!-- Here we create an HTML Form for handling the inputs-->
+            <form role="form">
+
+              <!-- Here we create the text box for capturing the search term-->
+              <div class="form-group">
+                <label for="search">Search Term:</label>
+                <input type="text" class="form-control" id="search-term">
+              </div>
+
+              <!-- Here we have our final submit button -->
+              <button type="submit" class="btn btn-default" id="run-search"><i class="fa fa-search"></i> Search</button>
+
+            </form>
+		</div>
+		<div class="col-md-8">		
+				<div id="giph-here"></div>
+		</div>
+
+		
+	</div>
+
+
+	<!-- JS LINK!! -->
+	<script type="text/javascript" src="javascript/code.js"></script>
+</body>
+
+</html>
